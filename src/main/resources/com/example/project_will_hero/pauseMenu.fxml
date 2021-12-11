@@ -11,19 +11,9 @@
 <AnchorPane prefHeight="479.0" prefWidth="645.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
 <!--   fx:controller="com.example.project_will_hero.PauseMenu">-->
    <children>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="467.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Game_Assets/p8-removebg-preview.png" />
-         </image>
-      </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/p7-removebg-preview.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="23.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Game_Assets/RedOrcBoss.png" />
          </image>
       </ImageView>
       <DialogPane layoutX="154.0" layoutY="127.0" prefHeight="217.0" prefWidth="347.0" style="-fx-background-color: springgreen;" />
@@ -47,9 +37,24 @@
             <Font name="Eras Bold ITC" size="14.0" />
          </font>
       </Button>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="456.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="452.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Game_Assets/p7-removebg-preview_2.png" />
+            <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="29.0" layoutX="501.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Orc2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="162.0" layoutX="47.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/grass-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="36.0" layoutX="99.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Dog-removebg-preview.png" />
          </image>
       </ImageView>
    </children>
