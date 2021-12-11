@@ -1,5 +1,6 @@
 package com.example.project_will_hero;
 
+import javafx.animation.FadeTransition;
 import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -15,8 +16,17 @@ public class HelloController implements Initializable {
     private ImageView hero;
     @FXML
     private ImageView orc;
+    @FXML
+    private ImageView TNT;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        FadeTransition tntburst = new FadeTransition();
+        tntburst.setNode(TNT);
+        tntburst.setCycleCount(FadeTransition.INDEFINITE);
+        tntburst.setAutoReverse(false);
+        tntburst.setDuration(Duration.millis(2000));
+        tntburst.setFromValue(10);
+        tntburst.setToValue(0.1);
         TranslateTransition translateHero = new TranslateTransition();
         TranslateTransition translateOrc = new TranslateTransition();
         translateHero.setNode(hero);
@@ -31,6 +41,6 @@ public class HelloController implements Initializable {
         translateOrc.setDuration(Duration.millis(500));
         translateHero.play();
         translateOrc.play();
-
+        tntburst.play();
     }
 }
