@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="479.0" prefWidth="645.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
 <!--   fx:controller="com.example.project_will_hero.ChestScene">-->
@@ -32,5 +34,20 @@
             <Image url="@../../../../../../../../Downloads/cloud-removebg-preview.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="173.0" layoutX="390.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/grass-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="57.0" layoutX="442.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/ChestClosed.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="309.0" layoutY="35.0" prefHeight="39.0" prefWidth="42.0" text="54">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
