@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="479.0" prefWidth="675.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" >
+<!--   fx:controller="com.example.project_will_hero.Rahul2">-->
+   <children>
+      <ImageView fitHeight="80.0" fitWidth="192.0" layoutX="419.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/cloud-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="192.0" layoutX="115.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/cloud-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="165.0" fitWidth="153.0" layoutX="83.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="165.0" fitWidth="148.0" layoutX="366.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="155.0" layoutX="494.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="93.0" layoutX="476.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/RedOrcBoss.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="380.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Dog-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="307.0" layoutY="28.0" prefHeight="60.0" prefWidth="49.0" text="108">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
