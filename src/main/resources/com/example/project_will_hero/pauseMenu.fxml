@@ -8,25 +8,25 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="479.0" prefWidth="645.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_will_hero.PauseMenu">
+<AnchorPane prefHeight="479.0" prefWidth="645.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<!--   fx:controller="com.example.project_will_hero.PauseMenu">-->
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="467.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/p8-removebg-preview.png" />
+            <Image url="@../../../Game_Assets/p8-removebg-preview.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/p7-removebg-preview.png" />
+            <Image url="@../../../Game_Assets/p7-removebg-preview.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="23.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/RedOrcBoss.png" />
+            <Image url="@../../../Game_Assets/RedOrcBoss.png" />
          </image>
       </ImageView>
-      <DialogPane layoutX="149.0" layoutY="110.0" prefHeight="260.0" prefWidth="367.0" style="-fx-background-color: springgreen;" />
+      <DialogPane layoutX="154.0" layoutY="127.0" prefHeight="217.0" prefWidth="347.0" style="-fx-background-color: springgreen;" />
       <Label layoutX="228.0" layoutY="134.0" prefHeight="39.0" prefWidth="210.0" text=" PAUSE MENU" textFill="#101cc7f5">
          <font>
             <Font name="Constantia Bold" size="28.0" />
@@ -49,7 +49,7 @@
       </Button>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="456.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/p7-removebg-preview_2.png" />
+            <Image url="@../../../Game_Assets/p7-removebg-preview_2.png" />
          </image>
       </ImageView>
    </children>
