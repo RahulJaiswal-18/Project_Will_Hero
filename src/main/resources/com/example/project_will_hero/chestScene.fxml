@@ -11,27 +11,27 @@
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="94.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/Island-removebg-preview.png" />
+            <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="27.0" fitWidth="35.0" layoutX="112.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/ChestOpen.png" />
+            <Image url="@../../../Game_Assets/ChestOpen.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="63.0" fitWidth="35.0" layoutX="112.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/Dog-removebg-preview.png" />
+            <Image url="@../../../Game_Assets/Dog-removebg-preview.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="78.0" fitWidth="109.0" layoutX="228.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/newedit4-removebg-preview.png" />
+            <Image url="@../../../Game_Assets/newedit4-removebg-preview.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="404.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/cloud-removebg-preview.png" />
+            <Image url="@../../../Game_Assets/cloud-removebg-preview.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="120.0" fitWidth="173.0" layoutX="390.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
