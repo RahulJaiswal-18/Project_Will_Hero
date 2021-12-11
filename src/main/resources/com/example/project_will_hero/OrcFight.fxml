@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="479.0" prefWidth="675.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" >
+<AnchorPane prefHeight="479.0" prefWidth="675.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
 <!--   fx:controller="com.example.project_will_hero.Rahul1">-->
    <children>
       <ImageView fitHeight="163.0" fitWidth="152.0" layoutX="476.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
@@ -55,5 +54,20 @@
             <Font size="30.0" />
          </font>
       </Label>
+      <ImageView fitHeight="80.0" fitWidth="164.0" layoutX="204.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/newedit4-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="LIGHTEN" fitHeight="51.0" fitWidth="62.0" layoutX="48.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/pauseButton-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="215.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Rockets.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

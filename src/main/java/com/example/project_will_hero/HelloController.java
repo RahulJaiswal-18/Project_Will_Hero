@@ -18,8 +18,16 @@ public class HelloController implements Initializable {
     private ImageView orc;
     @FXML
     private ImageView TNT;
+    @FXML
+    private ImageView rocket;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        TranslateTransition rocketBurst = new TranslateTransition();
+        rocketBurst.setNode(rocket);
+        rocketBurst.setCycleCount(TranslateTransition.INDEFINITE);
+        rocketBurst.setAutoReverse(false);
+        rocketBurst.setDuration(Duration.millis(3000));
+        rocketBurst.setByX(500);
         FadeTransition tntburst = new FadeTransition();
         tntburst.setNode(TNT);
         tntburst.setCycleCount(FadeTransition.INDEFINITE);
@@ -42,5 +50,6 @@ public class HelloController implements Initializable {
         translateHero.play();
         translateOrc.play();
         tntburst.play();
+        rocketBurst.play();
     }
 }
