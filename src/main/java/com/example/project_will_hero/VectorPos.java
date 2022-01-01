@@ -20,4 +20,10 @@ public class VectorPos {
     public double getYPos(){
         return this.y_coord;
     }
+    public void setXPos(double x){
+        this.x_coord=x;
+    }
+    public void setYPos(double y){
+        this.y_coord=y;
+    }
 }
