@@ -31,6 +31,8 @@ public class mainPageController implements Initializable {
             Stage window = (Stage)((Node) event.getSource()).getScene().getWindow();
 
             window.setScene(gameScene);
+            window.setWidth(951);
+            window.setHeight(540);
             window.show();
 
 
