@@ -10,7 +10,7 @@
 
 <AnchorPane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="2265.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_will_hero.playGameController">
    <children>
-      <Label layoutX="221.0" layoutY="23.0" prefHeight="55.0" prefWidth="124.0" text="     TAP" textFill="WHITE">
+      <Label layoutX="221.0" layoutY="78.0" prefHeight="55.0" prefWidth="124.0" text="     TAP" textFill="WHITE">
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="30.0" />
          </font>
@@ -50,7 +50,7 @@
             <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
          </image>
       </ImageView>
-      <Label layoutX="220.0" layoutY="59.0" prefHeight="49.0" prefWidth="177.0" text="TO MOVE" textFill="WHITE">
+      <Label layoutX="221.0" layoutY="121.0" prefHeight="49.0" prefWidth="177.0" text="TO MOVE" textFill="WHITE">
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="30.0" />
          </font>
@@ -120,12 +120,12 @@
             <Image url="@../../../Game_Assets/pauseButton-removebg-preview.png" />
          </image>
       </ImageView>
-      <Rectangle fx:id="Rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="207.0" layoutY="278.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
-      <Rectangle fx:id="Rectangle6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1278.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="81.0" />
-      <Rectangle fx:id="Rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="590.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
-      <Rectangle fx:id="Rectangle4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="849.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
-      <Rectangle fx:id="Rectangle2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="397.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
-      <Rectangle fx:id="Rectangle5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1070.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle fx:id="Rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" layoutX="207.0" layoutY="285.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle fx:id="Rectangle6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1278.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="Rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="590.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="Rectangle4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="849.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="Rectangle2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="397.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle fx:id="Rectangle5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1070.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
       <ImageView fx:id="coinchest" fitHeight="27.0" fitWidth="46.0" layoutX="721.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/ChestClosed.png" />
@@ -147,7 +147,12 @@
          </image>
       </ImageView>
       <Button fx:id="playButton" layoutX="7.0" mnemonicParsing="false" onAction="#move" opacity="0.0" prefHeight="55.0" prefWidth="2258.0" text="Button" />
-      <Rectangle fx:id="Rectangle7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1566.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="107.0" />
-      <Rectangle fx:id="Rectangle8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1829.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <Rectangle fx:id="Rectangle7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1566.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="107.0" />
+      <Rectangle fx:id="Rectangle8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1829.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <Label fx:id="position" layoutX="283.0" layoutY="39.0" prefHeight="27.0" prefWidth="28.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

@@ -1,9 +1,13 @@
 package com.example.project_will_hero;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
 import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Rectangle;
@@ -21,6 +25,8 @@ public class playGameController implements Initializable {
     private ImageView orcImage;
     @FXML
     private AnchorPane Pane;
+    @FXML
+    private Label position;
 
 
     @FXML
@@ -29,36 +35,72 @@ public class playGameController implements Initializable {
     @FXML
     private Rectangle Rectangle1;
 
+    static TranslateTransition translate;
+    static int count=0;
+
+    public void check(){
+        if (heroImage.getBoundsInParent().intersects(Rectangle1.getBoundsInParent())&& Rectangle1.getLayoutY()<=286) {
+            System.exit(0);
+        }
+    }
+    public void changeYNew(){
+        heroImage.setLayoutY(heroImage.getLayoutY()+5);
+    }
+    public void checkY(){
+        if(heroImage.getLayoutY()<=200){
+            changeYNew();
+        }
+    }
+    public void changeY(){
+        if(heroImage.getLayoutY()>200 && heroImage.getLayoutY()<260)
+        heroImage.setLayoutY(heroImage.getLayoutY()-5);
+    }
+
+
     public void move(){
-//        final Timeline timeline = new Timeline();
-//        timeline.setCycleCount(1);
-//        timeline.setAutoReverse(false);
-//        final KeyValue kv = new KeyValue(heroImage.xProperty(), 300);
-//        final KeyFrame kf = new KeyFrame(Duration.millis(500), kv);
-//        timeline.getKeyFrames().add(kf);
+
+        final Timeline timeline = new Timeline(new KeyFrame(Duration.millis(1), Event->{changeY();check();checkY();}));
+        timeline.setCycleCount(Timeline.INDEFINITE);
+        timeline.setAutoReverse(false);
+        //final KeyValue kv = new KeyValue(heroImage.xProperty(), 300);
+//        final KeyFrame kf ;
+//        timeline.getKeyFrames();
+        timeline.play();
+
         heroImage.setLayoutX(heroImage.getLayoutX()+45);
         Pane.setLayoutX(Pane.getLayoutX()-45);
-        if(heroImage.getBoundsInParent().intersects(orcImage.getBoundsInParent())){
-          //  System.exit(0);
-            orcImage.setLayoutX(orcImage.getLayoutX()+30);
-            heroImage.setLayoutX(heroImage.getLayoutX()-30);
-            Pane.setLayoutX(Pane.getLayoutX()+30);
+        count++;
+        position.setText(String.valueOf(count));
+//        if(heroImage.getBoundsInParent().intersects(orcImage.getBoundsInParent())){
+//          //  System.exit(0);
+//            orcImage.setLayoutX(orcImage.getLayoutX()+30);
+//            heroImage.setLayoutX(heroImage.getLayoutX()-30);
+//            Pane.setLayoutX(Pane.getLayoutX()+30);
+//
+//        }
+                  System.out.println("Hello");
+           System.out.println(heroImage.getLayoutX());
+            System.out.println(Rectangle1.getLayoutX());
+        System.out.println((heroImage.getLayoutY()));
+        System.out.println(Rectangle1.getLayoutY());
+//                if (heroImage.getBoundsInParent().intersects(Rectangle1.getBoundsInParent())&& Rectangle1.getLayoutY()<=286) {
+//                    System.exit(0);
+//                }
 
-        }
        // timeline.play();
 
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-            TranslateTransition translate = new TranslateTransition();
-            translate.setNode(heroImage);
-            // System.out.println("hi");
-            translate.setDuration(Duration.millis(500));
-            translate.setCycleCount(TranslateTransition.INDEFINITE);
-            translate.setByY(-40);
-            translate.setAutoReverse(true);
-            translate.play();
+//            translate = new TranslateTransition();
+//            translate.setNode(heroImage);
+//            // System.out.println("hi");
+//            translate.setDuration(Duration.millis(500));
+//            translate.setCycleCount(TranslateTransition.INDEFINITE);
+//            translate.setByY(-40);
+//            translate.setAutoReverse(true);
+//            translate.play();
 //            System.out.println("Hello");
 //            System.out.println(heroImage.getLayoutX());
 //            System.out.println(Rectangle1.getLayoutX());
@@ -92,17 +134,21 @@ public class playGameController implements Initializable {
 //            if(!heroImage.getBoundsInParent().intersects(Island10.getBoundsInParent())){
 //                System.exit(0);
 //            }
+        horTrans(orcImage);
+
+
+
+
+
+    }
+    public void horTrans(ImageView view){
         TranslateTransition translate2 = new TranslateTransition();
-        translate2.setNode(orcImage);
+        translate2.setNode(view);
         translate2.setDuration(Duration.millis(500));
         translate2.setCycleCount(TranslateTransition.INDEFINITE);
         translate2.setByY(-40);
         translate2.setAutoReverse(true);
         translate2.play();
-
-
-
-
     }
     public ImageView getHeroImage(){
         return heroImage;
