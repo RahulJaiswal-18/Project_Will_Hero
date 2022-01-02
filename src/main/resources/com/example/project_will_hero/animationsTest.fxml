@@ -24,7 +24,7 @@
             <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="425.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="192.0" fitWidth="172.0" layoutX="425.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
          </image>
@@ -34,19 +34,9 @@
             <Image url="@../../../Game_Assets/cloud-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="orcImage" fitHeight="27.0" fitWidth="35.0" layoutX="497.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Game_Assets/Orc2.png" />
-         </image>
-      </ImageView>
       <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="370.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/cloud-removebg-preview.png" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="heroImage" fitHeight="27.0" fitWidth="43.0" layoutX="82.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Game_Assets/Dog-removebg-preview.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="97.0" fitWidth="25.0" layoutX="242.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
@@ -54,7 +44,7 @@
             <Image url="@../../../Game_Assets/Tree2.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="119.0" fitWidth="159.0" layoutX="242.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="128.0" fitWidth="172.0" layoutX="242.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
          </image>
@@ -64,6 +54,71 @@
             <Font name="Berlin Sans FB Demi Bold" size="30.0" />
          </font>
       </Label>
-      <Button fx:id="playButton" layoutX="7.0" mnemonicParsing="false" onAction="#move" opacity="0.0" prefHeight="27.0" prefWidth="47.0" text="Button" />
+      <ImageView fitHeight="192.0" fitWidth="164.0" layoutX="1122.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="172.0" layoutX="908.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="221.0" layoutX="638.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/grass-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="25.0" layoutX="943.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="155.0" layoutX="2110.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="221.0" layoutX="1354.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/grass-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="25.0" layoutX="1489.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="1666.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="155.0" layoutX="1969.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="107.0" layoutX="2030.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/RedOrcBoss.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="orcImage" fitHeight="27.0" fitWidth="35.0" layoutX="497.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Orc2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="heroImage" fitHeight="27.0" fitWidth="43.0" layoutX="82.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/Dog-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="playButton" layoutX="7.0" mnemonicParsing="false" onAction="#move" opacity="0.0" prefHeight="479.0" prefWidth="2258.0" text="Button" />
+      <ImageView fx:id="heroImage1" fitHeight="50.0" fitWidth="57.0" layoutX="14.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/pauseButton-removebg-preview.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
