@@ -26,4 +26,15 @@ public class VectorPos {
     public void setYPos(double y){
         this.y_coord=y;
     }
+    public void addX(double dx){
+        this.x_coord+=dx;
+
+    }
+    public void addY(double dy){
+        this.y_coord+=dy;
+    }
+    //consider method for scalar multiplication of vector
+    //also consider methods for:
+    //1)Getting and setting length of vector
+    //2) Getting and setting angles of vectors
 }

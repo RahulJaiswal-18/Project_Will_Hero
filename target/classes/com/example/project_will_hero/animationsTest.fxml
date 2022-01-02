@@ -18,22 +18,22 @@
             <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="97.0" fitWidth="125.0" layoutX="473.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="97.0" fitWidth="125.0" layoutX="435.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="473.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="425.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/Island-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="14.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="-4.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/cloud-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="342.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="192.0" fitWidth="206.0" layoutX="370.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/cloud-removebg-preview.png" />
          </image>
@@ -43,12 +43,12 @@
             <Image url="@../../../Game_Assets/Dog-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="97.0" fitWidth="25.0" layoutX="229.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="97.0" fitWidth="25.0" layoutX="242.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/Tree2.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="119.0" fitWidth="159.0" layoutX="203.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="119.0" fitWidth="159.0" layoutX="232.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Game_Assets/Island2-removebg-preview.png" />
          </image>

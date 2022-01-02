@@ -6,9 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="479.0" prefWidth="645.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
-<!--   fx:controller="com.example.project_will_hero.MainPage">-->
+<AnchorPane prefHeight="479.0" prefWidth="645.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_will_hero.mainPageController">
    <children>
       <ImageView blendMode="LIGHTEN" fitHeight="104.0" fitWidth="264.0" layoutX="240.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -25,7 +23,7 @@
             <Image url="@../../../Game_Assets/p6-removebg-preview.png" />
          </image>
       </ImageView>
-      <Button layoutX="252.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: orange;" text="NEW GAME" textFill="#c21d1d">
+      <Button fx:id="newGame" layoutX="252.0" layoutY="187.0" mnemonicParsing="false" onAction="#startNewGame" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: orange;" text="NEW GAME" textFill="#c21d1d">
          <font>
             <Font name="Eras Bold ITC" size="14.0" />
          </font>
