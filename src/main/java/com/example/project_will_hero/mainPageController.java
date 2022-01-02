@@ -23,6 +23,13 @@ public class mainPageController implements Initializable {
     @FXML
     private Button newGame;
 
+    @FXML
+    private Button exit;
+
+    public void closeGame(){
+        System.exit(0);
+    }
+
     public void startNewGame(ActionEvent event) throws IOException{
 
             FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("animationsTest.fxml"));

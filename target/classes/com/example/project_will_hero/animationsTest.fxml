@@ -115,11 +115,6 @@
             <Image url="@../../../Game_Assets/Dog-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="heroImage1" fitHeight="50.0" fitWidth="57.0" layoutX="14.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Game_Assets/pauseButton-removebg-preview.png" />
-         </image>
-      </ImageView>
       <Rectangle fx:id="Rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" layoutX="207.0" layoutY="285.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
       <Rectangle fx:id="Rectangle6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1278.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="81.0" />
       <Rectangle fx:id="Rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="590.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
@@ -149,6 +144,11 @@
       <Button fx:id="playButton" layoutX="7.0" mnemonicParsing="false" onAction="#move" opacity="0.0" prefHeight="55.0" prefWidth="2258.0" text="Button" />
       <Rectangle fx:id="Rectangle7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1566.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="107.0" />
       <Rectangle fx:id="Rectangle8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="27.0" layoutX="1829.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <ImageView fx:id="heroImage1" fitHeight="50.0" fitWidth="57.0" layoutX="26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Assets/pauseButton-removebg-preview.png" />
+         </image>
+      </ImageView>
       <Label fx:id="position" layoutX="283.0" layoutY="39.0" prefHeight="27.0" prefWidth="28.0" text="0">
          <font>
             <Font size="18.0" />
